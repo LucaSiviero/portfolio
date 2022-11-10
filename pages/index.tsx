@@ -31,7 +31,7 @@ const Home: React.FC<HomeProps> = ({ page, error }) => {
       {pageOk && (
         <>
           <Head>
-            <title>{'Luca Siviero'}</title>
+            <title>Luca Siviero</title>
             <meta name="description" content={page.meta.description} />
           </Head>
           <PageViewer page={pageOk} />
